@@ -29,6 +29,9 @@
       "eas": {
         "projectId": "bdac8cb5-5198-4bb5-a0e5-86d1ca938ac9"
       }
+    },
+    "android": {
+      "package": "com.studyhighway"
     }
   }
 }
