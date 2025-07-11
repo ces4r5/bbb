@@ -1,7 +1,9 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 import { BlurView } from 'expo-blur';
-import { Target, Calendar, Clock, Trash2, Play, CreditCard as Edit } from 'lucide-react-native'erface GoalCardProps {
+import { Target, Calendar, Clock, Trash2, Play, CreditCard as Edit } from 'lucide-react-native';
+
+interface GoalCardProps {
   goal: any;
   subjects: any[];
   onDelete: () => void;
